@@ -1,11 +1,49 @@
+.body {
+background-color: #2a2c2f;
+}
+
 .page {
-  max-width: 254.84px;
-  height: 68.94px;
+  width: 1280px;
+  height: 2008px;
   margin: 0 auto;
+  background-color: #2a2c2f;
   font-family: "Inter";
 }
 
 .header {
   background-color: #2a2c2f;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 254.84px;
+  height: 68.94px;
+  margin-top: 34px;
+
+
+}
+
+@media screen and (max-width: 1280px);
+@media screen and (max-width: 768px);
+@media screen and (max-width: 320px);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
