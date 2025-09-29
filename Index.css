@@ -26,15 +26,21 @@
   display: flex;
   justify-content: center;
   color: #ffff;
+  background-position: center;
+  box-sizing: border-box;
 }
 
 .header__title {
   font-family: "Inter";
+  font-style: black;
+
   font-size: 96px;
-  font-weight: 900px;
+  height: 200px;
   line-height: 100px;
   width: 720px;
-  height: 200px;
+  top: 194px;
+  position: absolute;
+
 }
 
 
