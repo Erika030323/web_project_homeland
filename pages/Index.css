@@ -1,55 +1,12 @@
-@font-face {
-  src: url(./web/inter.css);
-  font-family: "Inter";
- }
+@import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/footer.css);
+@import url(../blocks/lead.css);
+@import url(../blocks/intro.css);
+@import url(../web/inter.css);
 
-.body {
-  background-color: #2a2c2f;
+.content {
+  display: block;
 }
-
-.page {
-  background-color: #2a2c2f;
-  width: 1280px;
-  height: 2008px;
-  margin: 0 auto;
-  font-family: "Inter";
-}
-
-.logo {
-  width: 254.84px;
-  height: 68.94px;
-  margin-top: 34px;
-}
-
-.header {
-  background-color: #2a2c2f;
-  display: flex;
-  justify-content: center;
-  color: #ffff;
-  background-position: center;
-  box-sizing: border-box;
-}
-
-.header__title {
-  font-family: "Inter";
-  font-style: black;
-  font-size: 96px;
-  height: 200px;
-  line-height: 100px;
-  width: 720px;
-  top: 194px;
-  position: absolute;
-
-}
-
-
-
-
-
-
-
-
-/*@media screen and (max-width: 1280px)
-@media screen and (max-width: 768px);
-@media screen and (max-width: 320px);*/
 
