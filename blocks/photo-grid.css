@@ -1,10 +1,14 @@
 .photo-grid {
-  display: grid;
-  grid-template-columns: auto;
-
+  font-family: "Inter";
+  padding: 16px 8px 16px 8px;
+  margin: 0 auto;
 }
 
 .photo-grid_item {
-
-
+  display: grid;
+  grid-template-columns: repeat(auto fit, minmax (248px, 1fr));
+  list-style-type: none;
+  grid-gap: 16px;
+  padding: 0px;
+  margin: 0px;
 }
