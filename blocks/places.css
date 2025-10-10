@@ -1,12 +1,79 @@
 .places {
   font-family: "Inter";
-  color: #ffff;
+  padding: 46px 148px 46px;
+  margin: 0 auto;
 }
 
-.place__content {
+.places__item {
+  margin: 0 0 80px;
 
 }
 
-.place__content_title {
+.place {
+  font-family: "Inter";
+  display: grid;
+  grid-template-columns: 468, 1fr;
+  grid-template-rows: auto auto 1fr;
+  grid-gap: 48px 40px;
+  grid-template-areas:
+  'title artist'
+  'image text'
+  'button text';
+}
+
+.place__title {
+  font-family: "Inter";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  align-self: end;
+  margin: 0;
+}
+
+.place__artist {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  max-width: 456px;
+}
+
+.place__url-heading {
 
 }
+
+.place__image {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  grid-area: image;
+
+}
+
+.place__paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 163%;
+  max-width: 484px;
+
+}
+
+.place__frame {
+  display: grid;
+  max-width: 289px;
+  border-radius: 4px;
+  padding: 13px 20px 13px 20px;
+  grid-gap: 10px;
+   font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+
+
+
+
+
+
+

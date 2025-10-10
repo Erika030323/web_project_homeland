@@ -7,7 +7,7 @@
 .photo-grid__list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 2fr);
+  grid-template-rows: repeat(2, 2fr);
   list-style-type: none;
   grid-gap: 16px 16px;
   padding: 0px;
