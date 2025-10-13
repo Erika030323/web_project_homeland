@@ -69,16 +69,18 @@
   grid-column: 1 / 3;
   grid-row: 3;
   grid-gap: 10px;
-  background: radial-gradient(#0278FE, #003a7b);
+  background: radial-gradient(#0278FE);
   box-shadow: 5px 5px 10px 0px #000 rgba(0, 0, 0, 2.5);
-}
-
-.place__frame__text {
-  font-family: "Inter";
+  transition: background-color 0.3s ease;
   text-decoration: none;
   text-align: center;
   font-size: 18px;
   font-weight: 600;
   line-height: 100%;
   color: #fff;
+}
+
+.place__frame:hover {
+  background: radial-gradient(#0278FE, #003a7b);
+  cursor: pointer;
 }
