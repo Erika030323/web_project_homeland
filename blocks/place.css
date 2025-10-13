@@ -2,7 +2,7 @@
   font-family: "Inter";
   max-width: 984px;
   display: grid;
-  grid-template-columns: 468, 1fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto 1fr;
   grid-gap: 48px 40px;
   grid-template-areas:
@@ -55,6 +55,10 @@
   line-height: 163%;
   max-width: 484px;
   grid-area: text;
+}
+
+.place__paragraph:first-child {
+  margin-top: 0;
 }
 
 .place__frame {
