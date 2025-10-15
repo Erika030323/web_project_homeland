@@ -22,11 +22,12 @@ Nombre del proyecto: Homeland
  -Flexbox: Layouts flexibles
  -Media Queries: Dise;o responsivo
  -Metodologia BEM: Organizacion de CSS
+ - Display Grid
  -Git/GitHub: Control de versiones
 
  *Enlace al proyecto
-  https://github.com/Erika030323/web_project_homeland
+  https://github.com/Erika030323/web_project_homeland.git
 
  *Mejoras
- -Agregar rese;as de los lugares visitados
+ -Agregar videos turisticos de los lugares visitados
  -Agregar animaciones CSS.
