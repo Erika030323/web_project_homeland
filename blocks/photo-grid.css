@@ -2,8 +2,6 @@
   display: grid;
   font-family: "Inter";
   padding: 46px 48px 46px;
-  margin: 0 auto;
-
 }
 
 .photo-grid__list {
@@ -12,7 +10,6 @@
   grid-template-rows: repeat(2, 2fr);
   list-style-type: none;
   grid-gap: 16px 16px;
-  padding: 0px auto;
   margin: 0px auto;
   max-width: 100%;
 }
