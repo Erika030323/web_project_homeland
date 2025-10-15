@@ -171,8 +171,7 @@
 @media screen and (max-width: 320px) {
   .place{
     max-width: 320px;
-    padding: 38px 05px 38px;
-
+    display: block;
   }
 
   .place__title {
@@ -183,8 +182,6 @@
 
   .place__artist {
     max-width: 288px;
-
-
   }
 
   .place__url-heading {

@@ -1,7 +1,7 @@
 .photo-grid {
   display: grid;
   font-family: "Inter";
-  padding: 46px 48px 46px;
+  padding: 6px 48px 6px;
 }
 
 .photo-grid__list {

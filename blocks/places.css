@@ -34,4 +34,8 @@
   .places {
   max-width: 320px;
   }
+
+   .places__item {
+    margin-top: 0px;
+  }
 }
