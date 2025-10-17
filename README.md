@@ -26,7 +26,7 @@ Nombre del proyecto: Homeland
  -Git/GitHub: Control de versiones
 
  *Enlace al proyecto
-  https://github.com/Erika030323/web_project_homeland.git
+  https://erika030323.github.io/web_project_homeland/
 
  *Mejoras
  -Agregar videos turisticos de los lugares visitados
