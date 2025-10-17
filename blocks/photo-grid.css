@@ -1,5 +1,6 @@
 .photo-grid {
   display: grid;
+  place-content: center;
   font-family: "Inter" Arial, sans-serif;
   padding: 6px 48px 6px;
 }
